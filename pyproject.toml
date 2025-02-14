@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "exchangeparser"
+version = "0.1.0"
+description = ""
+authors = ["Aleksey Nikitin <nick12.11.2014@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.9.2"
+pydantic-settings = "^2.5.2"
+aiohttp = "^3.10.8"
+apscheduler = "^3.10.4"
+sqlalchemy = "^2.0.37"
+aiogram = "^3.17.0"
+aioredis = {extras = ["hiredis"], version = "^2.0.1"}
+redis = "^5.2.1"
+asyncpg = "^0.30.0"
+alembic = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

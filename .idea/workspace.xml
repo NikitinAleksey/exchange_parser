@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3da92b7-a693-4f56-8c06-e7ec2f216476" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ExchangeParser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/bot_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/controller_aggregator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/data_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/queue_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/aggregate_distributor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/api/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/api/binance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/distributors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/distributors/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/distributors/binance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/ws/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/ws/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/parsers/ws/binance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/bot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/middlewares/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/middlewares/autentification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/routers/actions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/routers/commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/senders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/senders/notifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/senders/reject_access.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/services/fsm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/services/kb_builders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/services/kb_builders/inline_kb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tg_bot/services/kb_builders/reply_kb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/balances.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/currencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/exchanges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/transactions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/models/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/pg_connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/aggregator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/balances.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/currencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/exchanges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/transactions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/repository/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/cache/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/cache/redis_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/connector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/queue/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/queue/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/queue/producer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_client/storage.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2mxJzQmeVmlh9ZgoiBIQNxkvskn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.application.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exceptions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nick/PycharmProjects/ExchangeParser&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/tg_bot/services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/redis_client/cache" />
+      <recent name="$PROJECT_DIR$/database/repository" />
+      <recent name="$PROJECT_DIR$/app/tg_bot/notify" />
+      <recent name="$PROJECT_DIR$/app/tg_bot" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeParser" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeParser" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/config/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeParser" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/aioredis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/lib/python3.11/site-packages/aioredis/exceptions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeParser" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeParser" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/utils/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.application" />
+        <item itemvalue="Python.exceptions" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.config" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3da92b7-a693-4f56-8c06-e7ec2f216476" name="Changes" comment="" />
+      <created>1728012555373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728012555373</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
